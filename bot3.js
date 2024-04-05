@@ -1,7 +1,6 @@
 const scriptName = "bot3";
 
 function response(room, msg, sender, isGroupChat, replier, imageDB, packageName) {
-<<<<<<< HEAD
 	if (msg === "!") {
 		replier.reply("Hello, World!");
 	} else if (msg == '!홍성범') {
