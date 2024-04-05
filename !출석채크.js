@@ -11,7 +11,7 @@ const scriptName = "!출석채크";
 function response(room, msg, sender, isGroupChat, replier, imageDB, packageName) {
   
 }
-function response(room, msg, sender, isGroupChat, replier) {
+function responseFix(room, msg, sender, isGroupChat, replier) {
     //출석채크
     if (msg === "!출석채크") {
         replier.reply("출석 완료 되었씁니다");
