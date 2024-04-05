@@ -9,6 +9,8 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
     } else if (msg.startsWith("!clone")) {
         replier.reply(msg.slice("!clone".length));
     } else if (msg == "!!") { // by SYH
-        replier.reply("ㅈㅅ")
+        replier.reply("ㅈㅅ");
+    } else if(msg=="ㅋ"){
+        replier.reply("ㅋ.ㅋ.ㅋ.ㅋ");
     }
 }
